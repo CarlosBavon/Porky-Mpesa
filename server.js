@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://porky-delights.vercel.app/checkout"],
+    origin: ["http://localhost:3000", "https://porky-delights.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
